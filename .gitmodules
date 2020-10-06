@@ -1,0 +1,3 @@
+[submodule "third-party/pep-talk"]
+	path = third-party/pep-talk
+	url = https://github.com/quepas/pep-talk.git
