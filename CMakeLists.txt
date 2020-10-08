@@ -9,4 +9,6 @@ set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib )
 set( CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib )
 
 add_subdirectory( third-party/pybind11 )
-
+add_subdirectory( third-party/pep-talk/io )
+add_subdirectory( third-party/pep-talk/core )
+add_subdirectory( python )
